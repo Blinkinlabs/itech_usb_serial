@@ -1,0 +1,19 @@
+Altium Designer Pick and Place Locations
+C:\Users\blinkinlabs\Blinkinlabs-Repos\itech_usb_serial\pcb\Project Outputs for USB_SERIAL\Pick Place\Pick Place for PCB1.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       06/01/21
+Time:       17:44
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mm
+
+"Designator","Footprint","Center-X(mm)","Center-Y(mm)","Ref-X(mm)","Ref-Y(mm)","Pad-X(mm)","Pad-Y(mm)","Layer","Rotation","Comment"
+"P1","HDR1X4","7.7300","11.8000","3.9200","11.8000","3.9200","11.8000","TopLayer","360","Header 4"
+"C2","CAPC1005X06L","3.5000","9.2000","3.5000","9.2000","3.1100","9.2000","TopLayer","360","0.10uF"
+"C3","CAPC1005X06L","3.5000","8.2000","3.5000","8.2000","3.8900","8.2000","TopLayer","180","4.7uF"
+"U1","SLAB-QFN-24-2675x2675TP_M","7.6200","7.3000","7.6200","7.3000","8.8700","9.3500","TopLayer","270","CP2104-F03-GM"
+"C1","CAPC1005X06L","3.5000","7.2000","3.5000","7.2000","3.8900","7.2000","TopLayer","180","1uF"
+"J2","171-009-103L001","7.6200","2.0320","7.6200","2.0320","2.0800","2.0320","TopLayer","360","171-009-103L001"
