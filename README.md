@@ -19,24 +19,4 @@ You can order the PCBs direct from the [OSH park project](https://oshpark.com/sh
 
 ## Python library
 
-A library for using the test equipment is included in the python/ directory. The code was adapted from a BK Precision example. A quick example of how to use it is:
-
-    import time
-    import itech
-
-    # Load DC load
-    load = itech.DCLoad()
-    load.Initialize('/dev/ttyUSB1', 4800) # Replace this with the correct serial port path on your machine
-    load.SetRemoteControl()
-    #load.SetRemoteSense(1)   # Enable this if using the remote sense feature
-
-    load.SetCCCurrent(.1)  # Current in amps
-    load.TurnLoadOn()
-    
-    time.sleep(2) # Sleep for some time, to allow the output to settle
-
-    Vload_meas, Iload_meas = itech.extract(load.GetInputValues())
-    print(Vload_meas, Iload_meas)
-    
-    load.TurnLoadOff()
-
+See the [python library readme](https://github.com/Blinkinlabs/itech_usb_serial/blob/main/python/README.md) for a tutorial on using the adapter with Python.

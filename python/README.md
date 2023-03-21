@@ -2,6 +2,16 @@
 
 Control ITECH test equipment using a proprietary 26-byte UART protocol.
 
+You'll need to [make your own adapter](https://github.com/blinkinlabs/itech_usb_serial#itech-usb-to-serial-adapter)
+to connect your test equipment to your computer, or presumably buy an
+isolated one.
+
+Note: If your test equipment has a USB port, use that instead! The -A and -B
+variants of some ITECH product lines have an optional USB port, which is
+is supported by standard USBTMC libraries such as pyvisa. This library
+is intended for devices that only implement a proprietary control protocol
+over a TTL serial port.
+
 ## Usage
 
 First, install the library from pypi:

@@ -10,6 +10,7 @@ classifiers = ["License :: OSI Approved :: MIT License"]
 dynamic = ["version", "description"]
 keywords = ["itech", "it6800", "it6811", "it8500", "it8511"]
 dependencies = ["pyserial"]
+readme = "README.md"
 
 [project.urls]
 Home = "https://github.com/blinkinlabs/itech_usb_serial"
