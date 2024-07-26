@@ -1,3 +1,4 @@
+import struct
 import itech_serial
 from typing import Any
 
